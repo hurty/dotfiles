@@ -44,4 +44,4 @@ set wildmode=list:longest,full
 set nobackup
 set nowritebackup
 set noswapfile
-
+let mapleader=","
