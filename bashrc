@@ -1,11 +1,15 @@
 export EDITOR="mvim"
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+# Common aliases
 alias ..="cd .."
 alias ll="ls -l"
 alias l="ls -l"
 alias la="ls -la"
 alias c="clear"
+alias v="mvim"
+
+# Git aliases
 alias b="git branch -a"
 alias s="git status"
 
