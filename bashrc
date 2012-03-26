@@ -9,9 +9,14 @@ alias la="ls -la"
 alias c="clear"
 alias v="mvim"
 
+# Databases
+alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+
 # Git aliases
-alias b="git branch -a"
-alias s="git status"
+alias gb="git branch -a"
+alias gs="git status"
+alias gp="git pull"
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
