@@ -18,6 +18,9 @@ alias gb="git branch -a"
 alias gs="git status"
 alias gp="git pull"
 
+# Symfony aliases
+alias sf="app/console"
+
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
 
