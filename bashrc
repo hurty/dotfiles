@@ -12,11 +12,14 @@ alias v="mvim"
 # Databases
 alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pgstop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+alias mystart="mysql.server start"
+alias mystop="mysql.server stop"
 
 # Git aliases
 alias gb="git branch -a"
 alias gs="git status"
 alias gp="git pull"
+alias ga="git add"
 
 # Symfony aliases
 alias sf="app/console"
