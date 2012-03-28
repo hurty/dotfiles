@@ -46,3 +46,20 @@ set nobackup
 set nowritebackup
 set noswapfile
 let mapleader=","
+
+" ----------------------------------------------------------------------------
+"  Syntaxes
+" ----------------------------------------------------------------------------
+" Use the htmljinja syntax for twig files
+au BufNewFile,BufRead *.twig set ft=htmljinja
+
+" ----------------------------------------------------------------------------
+"  Hooks
+" ----------------------------------------------------------------------------
+" Automatically create save directory if it does not exist
+au BufWrite * :call <SID>MkdirsIfNotExists(expand('<afile>:h'))
+function! <SID>MkdirsIfNotExists(directory)
+    if(!isdirectory(a:directory))
+        call system('mkdir -p '.shellescape(a:directory))
+    endif
+endfunction

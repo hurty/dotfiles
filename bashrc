@@ -20,6 +20,7 @@ alias gb="git branch -a"
 alias gs="git status"
 alias gp="git pull"
 alias ga="git add"
+alias gc="git commit -m"
 
 # Symfony aliases
 alias sf="app/console"
