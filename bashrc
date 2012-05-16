@@ -23,6 +23,9 @@ alias gp="git pull"
 alias ga="git add"
 alias gc="git commit -m"
 alias gd="git diff"
+alias gl="git log"
+alias glp="git log -p"
+alias gds="git diff --staged"
 
 # Symfony aliases
 alias sf="app/console"
