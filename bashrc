@@ -29,6 +29,7 @@ alias gds="git diff --staged"
 
 # Symfony aliases
 alias sf="app/console"
+alias dl_composer="wget http://getcomposer.org/composer.phar"
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
