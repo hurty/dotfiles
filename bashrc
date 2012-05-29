@@ -18,7 +18,7 @@ alias mystop="mysql.server stop"
 
 # Git aliases
 alias gb="git branch -a"
-alias gs="git status"
+alias gs="git status -sb"
 alias gp="git pull"
 alias ga="git add"
 alias gc="git commit -m"
