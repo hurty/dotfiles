@@ -9,6 +9,7 @@ alias la="ls -la"
 alias c="clear"
 alias v="mvim"
 alias s='open -a "Sublime Text 2"'
+alias dotfiles="s ~/dotfiles"
 
 # Databases
 alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
