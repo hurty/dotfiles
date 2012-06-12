@@ -32,6 +32,7 @@ alias gh="hub browse"
 
 # Symfony aliases
 alias sf="app/console"
+alias sfp="app/console --env=prod"
 alias dl_composer="wget http://getcomposer.org/composer.phar"
 
 # Prompt style
