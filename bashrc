@@ -10,6 +10,7 @@ alias c="clear"
 alias v="mvim"
 alias s='open -a "Sublime Text 2"'
 alias dotfiles="s ~/dotfiles"
+alias bashrc="s ~/dotfiles/bashrc"
 
 # Databases
 alias pgstart="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
@@ -34,6 +35,7 @@ alias gh="hub browse"
 alias sf="app/console"
 alias sfp="app/console --env=prod"
 alias dl_composer="wget http://getcomposer.org/composer.phar"
+alias fl="app/console doctrine:fixtures:load"
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
