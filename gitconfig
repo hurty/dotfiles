@@ -1,0 +1,16 @@
+[core]
+	editor = mate
+	excludesfile = /Users/pierre/.gitignore
+	autocrlf = input
+[color]
+	ui = true
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	cim = commit -m
+	br = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[user]
+	name = Pierre Hurtevent
+	email = pierre@knplabs.com
