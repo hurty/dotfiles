@@ -29,7 +29,7 @@ alias gd="git diff"
 alias gl="git lg"
 alias glp="git log -p"
 alias gds="git diff --staged"
-alias gh="hub browse"
+alias github="hub browse"
 
 # Symfony aliases
 alias sf="app/console"
