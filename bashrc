@@ -36,6 +36,7 @@ alias sf="app/console"
 alias sfp="app/console --env=prod"
 alias dl_composer="wget http://getcomposer.org/composer.phar"
 alias fl="app/console doctrine:fixtures:load"
+alias phpserver="php -S localhost:3000 -t web"
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
