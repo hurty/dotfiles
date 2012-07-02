@@ -36,6 +36,7 @@ alias sf="app/console"
 alias sfp="app/console --env=prod"
 alias dl_composer="wget http://getcomposer.org/composer.phar"
 alias fl="app/console doctrine:fixtures:load"
+alias assets="app/console assets:install --symlink web && app/console assetic:dump"
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
