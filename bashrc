@@ -29,7 +29,7 @@ alias gd="git diff"
 alias gl="git lg"
 alias glp="git log -p"
 alias gds="git diff --staged"
-alias gh="hub browse"
+alias github="hub browse"
 
 # Symfony aliases
 alias sf="app/console"
@@ -37,6 +37,7 @@ alias sfp="app/console --env=prod"
 alias dl_composer="wget http://getcomposer.org/composer.phar"
 alias fl="app/console doctrine:fixtures:load"
 alias assets="app/console assets:install --symlink web && app/console assetic:dump"
+alias phpserver="php -S localhost:3000 -t web"
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
