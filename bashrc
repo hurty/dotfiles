@@ -38,6 +38,7 @@ alias dl_composer="wget http://getcomposer.org/composer.phar"
 alias fl="app/console doctrine:fixtures:load"
 alias assets="app/console assets:install --symlink web && app/console assetic:dump"
 alias phpserver="php -S localhost:3000 -t web"
+alias setrights='rm -rf app/cache/* && rm -rf app/logs/* && sudo chmod +a "www allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs && sudo chmod +a "`whoami` allow delete,write,append,file_inherit,directory_inherit" app/cache app/logs'
 
 # Prompt style
 PS1="\n\u@\h  \w \$(parse_git_branch)\\n→ "
