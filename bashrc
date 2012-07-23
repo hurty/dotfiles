@@ -1,5 +1,5 @@
-export EDITOR="mvim"
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export EDITOR="s"
+export PATH=/Users/pierre/pear/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
 # Common aliases
 alias ..="cd .."
