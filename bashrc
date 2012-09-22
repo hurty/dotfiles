@@ -1,5 +1,5 @@
 export EDITOR="s"
-export PATH=/Users/pierre/pear/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=/Users/pierre/pear/bin:/usr/local/bin:/usr/local/sbin:/usr/local/Cellar/ruby/1.9.3-p194/bin:$PATH
 
 # Common aliases
 alias ..="cd .."
@@ -49,3 +49,4 @@ parse_git_branch() {
 
 # Ruby environment
 eval "$(rbenv init -)"
+alias b="bundle exec"
